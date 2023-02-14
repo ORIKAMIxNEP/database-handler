@@ -1,4 +1,4 @@
-let date = new Date();
+const date = new Date();
 FetchMenu();
 FetchMenus();
 

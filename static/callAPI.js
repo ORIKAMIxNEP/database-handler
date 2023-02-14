@@ -1,4 +1,4 @@
-let APIaddress = "34.105.1.151";
+const APIaddress = "34.105.1.151";
 
 function FetchMenu() {
   fetch("http://" + APIaddress + "/fetch-menu")
