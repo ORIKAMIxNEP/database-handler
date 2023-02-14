@@ -2,6 +2,3 @@
 __pycache__/
 nohup.out
 static/images/*.jpg
-!static/images/beef_curry.jpg
-!static/images/katsu_curry.jpg
-!static/images/katsudon.jpg

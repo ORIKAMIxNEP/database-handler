@@ -6,19 +6,13 @@
     <title>学食メニュー</title>
   </head>
   <body>
-    <div class="main">
-      <div class="menu_box">
-        <h2 class="title">今日の学食メニュー</h2>
-      </div>
-      <div class="request_box">
-        <div class="title">
-          <div id="popular_menu"></div>
-        </div>
-        <h1>メニューリクエスト</h1>
-        <div class="menus" id="request_menus"></div>
-        <button id="vote_menu" onclick="VoteMenu()">選択した料理に投票</button>
-      </div>
-    </div>
+    <h1>今日の学食メニュー</h1>
+    <h2>日替わり定食</h2>
+    <img src="static/images/{{ image_id }}.jpg" />
+    <div id="popular_menu"></div>
+    <h2>メニューリクエスト</h2>
+    <div id="request_menus"></div>
+    <button onclick="VoteMenu()">選択した料理に投票</button>
     <script src="static/callAPI.js"></script>
     <script src="static/script.js"></script>
   </body>
