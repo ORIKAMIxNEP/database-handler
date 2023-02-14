@@ -1,4 +1,3 @@
-const date = new Date();
 FetchMenu();
 FetchMenus();
 
@@ -9,6 +8,7 @@ function CheckCookie() {
       elements.item(i).disabled = true;
     }
     document.getElementById("vote_menu").disabled = true;
+    const date = new Date();
     document.getElementById("vote_menu").textContent =
       date.getMonth() + 1 + "月分の投票完了";
     document.getElementById(document.cookie.split("=")[1]).checked = true;

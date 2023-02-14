@@ -6,7 +6,8 @@ function FetchMenu() {
       return response.json();
     })
     .then(function (data) {
-      lastMonth = date.setMonth(date.getMonth() - 1);
+      const date = new Date();
+      date.setMonth(date.getMonth() - 1);
       document.getElementById("popular_menu").innerHTML =
         "<div>" +
         (date.getMonth() + 1) +
