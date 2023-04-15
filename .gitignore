@@ -1,4 +1,4 @@
 .env
 __pycache__/
 nohup.out
-static/images/*.jpg
+static/images/
