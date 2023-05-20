@@ -6,7 +6,6 @@ if ($Args.Length -eq 0) {
 $databaseCSV = Import-Csv database.csv
 $database = @()
 $databaseRow = @()
-$i = 1
 foreach ($databaseCSVRow in $databaseCSV) {
     for ($i = 1; $i -le (Get-Content -Path database.csv -TotalCount 1).Split(",").Count; $i++) {
         $databaseRow += $databaseCSVRow.$i
