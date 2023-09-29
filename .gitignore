@@ -1,4 +1,9 @@
-.env
+# Python
 __pycache__/
-nohup.out
+
+# database-handler
+.env
 static/images/
+
+# Ubuntu
+nohup.out
